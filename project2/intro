@@ -1,5 +1,0 @@
-“Imagine compiling your game… and it crashes. You open your main file and it’s thousands of lines
- long—you don’t even know where to start.
-In today’s video, I’ll show you how to avoid this nightmare by using custom plugins,
- separating your game logic, and organizing your Bevy
- project the right way.
