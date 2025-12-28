@@ -1,9 +1,9 @@
 use bevy::prelude::*;
-use bevy::input::mouse::AccumulatedMouseMotion; //Provides mouse input resource sense last frame
+use bevy::input::mouse::AccumulatedMouseMotion; //Provided by bevy: mouse input resource sense last frame
 
-use std::f32::consts::FRAC_PI_2;
+use std::f32::consts::FRAC_PI_2; //Provided by bevy: pi/2 rad
 
-use crate::camera::CameraSensitivity;
+use crate::cameras::camera::CameraSensitivity; //Component defined in camera.rs
 
 pub struct RotateCameraPlugin;
 

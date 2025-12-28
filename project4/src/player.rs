@@ -2,8 +2,6 @@ use bevy::prelude::*;
 
 pub struct PlayerPlugin;
 
-//use bevy::input::mouse::AccumulatedMouseMotion; //Provides mouse input resource
-
 impl Plugin for PlayerPlugin {
 	fn build(&self, app: &mut App) {
 		app.add_systems(Startup, spawn_character);
